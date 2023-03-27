@@ -1,5 +1,4 @@
 package exerciseE6;
-
 import java.util.Scanner;
 
 public class problem7 {
@@ -11,10 +10,10 @@ public class problem7 {
 
     public static void main(String[] args) {
 
-        double unitPrice = 0;
-        double quantity = 0;
-        double purchaseTotal = 0;
-        double purchaseTotalAfterRebate = 0;
+        double unitPrice;
+        double quantity;
+        double purchaseTotal;
+        double purchaseTotalAfterRebate;
 
         Scanner readUserData = new Scanner(System.in);
 

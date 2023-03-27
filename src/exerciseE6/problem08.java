@@ -1,16 +1,8 @@
 package exerciseE6;
-
 import java.util.Scanner;
 
 public class problem08 {
 
-    public String itemNumber;
-    public double unitPrice;
-
-    public problem08(String itemNumber, double unitPrice) {
-        this.itemNumber = itemNumber;
-        this.unitPrice = unitPrice;
-    }
     /*
     To read an item number and the number of bouquets of that type purchased and to compute and
     print the total price of those bouquets. The unit prices of the bouquets is given as follows:
@@ -19,7 +11,15 @@ public class problem08 {
     202         $ 3.10
     303         $ 9.75
     404         $ 6.50
-     */
+    */
+
+    public String itemNumber;
+    public double unitPrice;
+
+    public problem08(String itemNumber, double unitPrice) {
+        this.itemNumber = itemNumber;
+        this.unitPrice = unitPrice;
+    }
 
     public static void main(String[] args) {
 
