@@ -2,7 +2,7 @@ package exerciseE7;
 
 import java.util.Scanner;
 
-public class problem01 {
+public class problem01a {
 
     /*
     public static void main(String[] args) {
@@ -49,5 +49,6 @@ public class problem01 {
             default -> System.out.println("Invalid");
         }
         System.out.println (num);
+        scan.close();
     }
 }
